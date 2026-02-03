@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to your Dashboard, @ViewBag.Username!</h1>
+    <p>This page is protected by session-based authentication.</p>
+
+    <a asp-controller="Account" asp-action="Logout">Logout</a>
+</div>
